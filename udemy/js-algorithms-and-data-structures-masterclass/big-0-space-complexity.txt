@@ -1,0 +1,37 @@
+//slides : https://cs.slides.com/colt_steele/big-o-notation#/36/0/0
+
+
+
+Big O space : được hiểu là ko gian cần thiết để lưu giữ giá trị input đầu vào
+Question 4:
+Determine the  space complexity for the following function 
+
+function onlyElementsAtEvenIndex(array) {
+    var newArray = Array(Math.ceil(array.length / 2));
+    for (var i = 0; i < array.length; i++) {
+        if (i % 2 === 0) {
+            newArray[i / 2] = array[i];
+        }
+    }
+    return newArray;
+}
+
+=> Answer: O(n)
+
+
+Question 5:
+Determine the space complexity for the following function
+
+function subtotals(array) {
+    var subtotalArray = Array(array.length);
+    for (var i = 0; i < array.length; i++) {
+        var subtotal = 0;
+        for (var j = 0; j <= i; j++) {
+            subtotal += array[j];
+        }
+        subtotalArray[i] = subtotal;
+    }
+    return subtotalArray;
+}
+
+=> Answer : O(n)

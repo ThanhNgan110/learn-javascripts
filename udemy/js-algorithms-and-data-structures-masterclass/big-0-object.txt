@@ -1,0 +1,14 @@
+// slides: https://cs.slides.com/colt_steele/built-in-data-structures-25#/6/0/0
+
+Big O of Object
+Inser - 0(1)
+Remove - 0(1)
+Searching - 0(n)
+Access - 0(1)
+
+Big O of Object Methods
+
+
+Object.keys - 0(n)
+Object.values - 0(n)
+Object.entries - 0(n)

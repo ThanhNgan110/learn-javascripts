@@ -34,4 +34,4 @@ function subtotals(array) {
     return subtotalArray;
 }
 
-=> Answer : O(n)
+=> Answer : O(n)2

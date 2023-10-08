@@ -1,0 +1,9 @@
+// slides: https://cs.slides.com/colt_steele/tries-21#/3/0/5
+
+there are many different search method on arrays in javascript:
+
+indexOf
+includes
+find
+findIndex
+
